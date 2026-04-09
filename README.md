@@ -1,7 +1,5 @@
-# FMM-ParamFinder
+# FMM-AutoOpt
 Optimized Parameters for Simulations with the Fast Multipole Method
-
-
 
 Dependencies
 - Python3
