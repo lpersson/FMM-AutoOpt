@@ -794,10 +794,7 @@ def prepare_output_dir(path):
     return
 
 
-class Formatter(
-    argparse.RawTextHelpFormatter,
-    argparse.ArgumentDefaultsHelpFormatter
-):
+class Formatter(argparse.RawTextHelpFormatter, argparse.ArgumentDefaultsHelpFormatter):
     pass
 
 ###########################################################################################
@@ -828,7 +825,7 @@ fmm.add_argument("-d", "--depth", dest="d", nargs='+', type=int, default=[2, 3, 
 fmm.add_argument("-p", "--p-range", dest="p", nargs='+', type=str, default=["0:20:2", "0:20:2", "0:20:2"],
     help="Multipole order ranges for each d (e.g., '0:20:2'). Must match -d length.")
 fmm.add_argument("--ref", nargs=2, type=int, default=[0, 0], metavar=('d', 'p'),
-    help="Reference d/p for accuracy testing. Default [0,0] (Open Bound).")
+    help="Reference d/p for accuracy testing.")
 fmm.add_argument("--maxerr", type=float, default=0.01, 
     help="Accuracy threshold (J/mol/atom).")
 
