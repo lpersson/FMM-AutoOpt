@@ -240,7 +240,6 @@ class MdpFile:
         'tc-grps': 'system',
         'ref-t': '300',
         'tau-t': '0.1',
-        'continuation': 'yes',
         'constraints': 'all-bonds',
         'constraint-algorithm': 'Lincs',
         'lincs-order': '6',
