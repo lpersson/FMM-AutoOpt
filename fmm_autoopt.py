@@ -482,6 +482,8 @@ class SimulationRunner:
             mdp_copy.params['gen-vel'] = "no"
             mdp_copy.params['nstenergy'] = "1"
             mdp_copy.params['nstcalcenergy'] = "1"
+            mdp_copy.params['constraints'] = "none"
+            mdp_copy.params['comm-mode'] = "none"
             mdp_path = os.path.join(output_path, f"{tag}.mdp")
             mdp_copy.write(mdp_path)
 
