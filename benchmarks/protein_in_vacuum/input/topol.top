@@ -1,0 +1,20 @@
+
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_D.itp"
+
+[ system ]
+; Name
+LECTIN
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1

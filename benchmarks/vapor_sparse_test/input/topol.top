@@ -1,0 +1,24 @@
+
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include water topology
+#include "oplsaa.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "oplsaa.ff/ions.itp"
+
+[ system ]
+; Name
+Written by MDAnalysis
+
+[ molecules ]
+; Compound        #mols
+SOL               216

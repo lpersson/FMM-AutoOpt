@@ -1,0 +1,477 @@
+
+============================================================
+======================= FMM-AutoOpt ========================
+============================================================
+
+Log written to output_FMM-AutoOpt/fmm_autoopt.log
+Command line: fmm_autoopt.py -i input/frame*.gro --top input/topol.top --maxerr 0.01 
+
+--- Processing Structure: frame01 ---
+Generating velocities for frame01...
+
+--- Processing Structure: frame02 ---
+Generating velocities for frame02...
+
+--- Processing Structure: frame03 ---
+Generating velocities for frame03...
+
+--- Processing Structure: frame04 ---
+Generating velocities for frame04...
+
+--- Processing Structure: frame05 ---
+Generating velocities for frame05...
+
+Output files
+  Output directory: output_FMM-AutoOpt
+  Log file: output_FMM-AutoOpt/fmm_autoopt.log
+  Checkpoint file: output_FMM-AutoOpt/checkpoint.json
+  Summary CSV: output_FMM-AutoOpt/summary.csv
+  Averaged summary CSV: output_FMM-AutoOpt/summary_averaged.csv
+
+Parameter Space:
+  d=2: p=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  d=3: p=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  d=4: p=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+New checkpoint generated at: output_FMM-AutoOpt/checkpoint.json
+
+Run setup:
+  Frames: 5
+  OPENBOUNDARY: 1
+  Reference setting: d=0, p=0
+  Accuracy threshold: 0.01 J/mol/atom
+  Sparse mode: 0
+  Accuracy FMM_SPARSE: 0
+  Performance FMM_SPARSE values: 0
+  p-stop: disabled
+  Accuracy normalization atoms: 14309
+  Performance nsteps: 1000
+  Performance resetstep: 200
+  Performance maxh: 0.05 h
+
+========================================
+=== ESTABLISHING REFERENCE ENERGIES ====
+========================================
+Running accuracy test: d0_p0_frame01
+Running accuracy test: d0_p0_frame02
+Running accuracy test: d0_p0_frame03
+Running accuracy test: d0_p0_frame04
+Running accuracy test: d0_p0_frame05
+
+All Reference Energies successfully established.
+
+========================================
+======= BEGINNING PARAMETER SCAN =======
+========================================
+
+Testing parameter set: d=2, p=0
+Running accuracy test: d2_p0_frame01
+Running accuracy test: d2_p0_frame02
+Running accuracy test: d2_p0_frame03
+Running accuracy test: d2_p0_frame04
+Running accuracy test: d2_p0_frame05
+Running performance test: d2_p0_frame01
+Running performance test: d2_p0_frame02
+Running performance test: d2_p0_frame03
+Running performance test: d2_p0_frame04
+Running performance test: d2_p0_frame05
+
+Testing parameter set: d=2, p=2
+Running accuracy test: d2_p2_frame01
+Running accuracy test: d2_p2_frame02
+Running accuracy test: d2_p2_frame03
+Running accuracy test: d2_p2_frame04
+Running accuracy test: d2_p2_frame05
+Running performance test: d2_p2_frame01
+Running performance test: d2_p2_frame02
+Running performance test: d2_p2_frame03
+Running performance test: d2_p2_frame04
+Running performance test: d2_p2_frame05
+
+Testing parameter set: d=2, p=4
+Running accuracy test: d2_p4_frame01
+Running accuracy test: d2_p4_frame02
+Running accuracy test: d2_p4_frame03
+Running accuracy test: d2_p4_frame04
+Running accuracy test: d2_p4_frame05
+Running performance test: d2_p4_frame01
+Running performance test: d2_p4_frame02
+Running performance test: d2_p4_frame03
+Running performance test: d2_p4_frame04
+Running performance test: d2_p4_frame05
+
+Testing parameter set: d=2, p=6
+Running accuracy test: d2_p6_frame01
+Running accuracy test: d2_p6_frame02
+Running accuracy test: d2_p6_frame03
+Running accuracy test: d2_p6_frame04
+Running accuracy test: d2_p6_frame05
+Running performance test: d2_p6_frame01
+Running performance test: d2_p6_frame02
+Running performance test: d2_p6_frame03
+Running performance test: d2_p6_frame04
+Running performance test: d2_p6_frame05
+
+Testing parameter set: d=2, p=8
+Running accuracy test: d2_p8_frame01
+Running accuracy test: d2_p8_frame02
+Running accuracy test: d2_p8_frame03
+Running accuracy test: d2_p8_frame04
+Running accuracy test: d2_p8_frame05
+Running performance test: d2_p8_frame01
+Running performance test: d2_p8_frame02
+Running performance test: d2_p8_frame03
+Running performance test: d2_p8_frame04
+Running performance test: d2_p8_frame05
+
+Testing parameter set: d=2, p=10
+Running accuracy test: d2_p10_frame01
+Running accuracy test: d2_p10_frame02
+Running accuracy test: d2_p10_frame03
+Running accuracy test: d2_p10_frame04
+Running accuracy test: d2_p10_frame05
+Running performance test: d2_p10_frame01
+Running performance test: d2_p10_frame02
+Running performance test: d2_p10_frame03
+Running performance test: d2_p10_frame04
+Running performance test: d2_p10_frame05
+
+Testing parameter set: d=2, p=12
+Running accuracy test: d2_p12_frame01
+Running accuracy test: d2_p12_frame02
+Running accuracy test: d2_p12_frame03
+Running accuracy test: d2_p12_frame04
+Running accuracy test: d2_p12_frame05
+Running performance test: d2_p12_frame01
+Running performance test: d2_p12_frame02
+Running performance test: d2_p12_frame03
+Running performance test: d2_p12_frame04
+Running performance test: d2_p12_frame05
+
+Testing parameter set: d=2, p=14
+Running accuracy test: d2_p14_frame01
+Running accuracy test: d2_p14_frame02
+Running accuracy test: d2_p14_frame03
+Running accuracy test: d2_p14_frame04
+Running accuracy test: d2_p14_frame05
+Running performance test: d2_p14_frame01
+Running performance test: d2_p14_frame02
+Running performance test: d2_p14_frame03
+Running performance test: d2_p14_frame04
+Running performance test: d2_p14_frame05
+
+Testing parameter set: d=2, p=16
+Running accuracy test: d2_p16_frame01
+Running accuracy test: d2_p16_frame02
+Running accuracy test: d2_p16_frame03
+Running accuracy test: d2_p16_frame04
+Running accuracy test: d2_p16_frame05
+Running performance test: d2_p16_frame01
+Running performance test: d2_p16_frame02
+Running performance test: d2_p16_frame03
+Running performance test: d2_p16_frame04
+Running performance test: d2_p16_frame05
+
+Testing parameter set: d=2, p=18
+Running accuracy test: d2_p18_frame01
+Running accuracy test: d2_p18_frame02
+Running accuracy test: d2_p18_frame03
+Running accuracy test: d2_p18_frame04
+Running accuracy test: d2_p18_frame05
+Running performance test: d2_p18_frame01
+Running performance test: d2_p18_frame02
+Running performance test: d2_p18_frame03
+Running performance test: d2_p18_frame04
+Running performance test: d2_p18_frame05
+
+Testing parameter set: d=2, p=20
+Running accuracy test: d2_p20_frame01
+Running accuracy test: d2_p20_frame02
+Running accuracy test: d2_p20_frame03
+Running accuracy test: d2_p20_frame04
+Running accuracy test: d2_p20_frame05
+Running performance test: d2_p20_frame01
+Running performance test: d2_p20_frame02
+Running performance test: d2_p20_frame03
+Running performance test: d2_p20_frame04
+Running performance test: d2_p20_frame05
+
+Testing parameter set: d=3, p=0
+Running accuracy test: d3_p0_frame01
+Running accuracy test: d3_p0_frame02
+Running accuracy test: d3_p0_frame03
+Running accuracy test: d3_p0_frame04
+Running accuracy test: d3_p0_frame05
+Running performance test: d3_p0_frame01
+Running performance test: d3_p0_frame02
+Running performance test: d3_p0_frame03
+Running performance test: d3_p0_frame04
+Running performance test: d3_p0_frame05
+
+Testing parameter set: d=3, p=2
+Running accuracy test: d3_p2_frame01
+Running accuracy test: d3_p2_frame02
+Running accuracy test: d3_p2_frame03
+Running accuracy test: d3_p2_frame04
+Running accuracy test: d3_p2_frame05
+Running performance test: d3_p2_frame01
+Running performance test: d3_p2_frame02
+Running performance test: d3_p2_frame03
+Running performance test: d3_p2_frame04
+Running performance test: d3_p2_frame05
+
+Testing parameter set: d=3, p=4
+Running accuracy test: d3_p4_frame01
+Running accuracy test: d3_p4_frame02
+Running accuracy test: d3_p4_frame03
+Running accuracy test: d3_p4_frame04
+Running accuracy test: d3_p4_frame05
+Running performance test: d3_p4_frame01
+Running performance test: d3_p4_frame02
+Running performance test: d3_p4_frame03
+Running performance test: d3_p4_frame04
+Running performance test: d3_p4_frame05
+
+Testing parameter set: d=3, p=6
+Running accuracy test: d3_p6_frame01
+Running accuracy test: d3_p6_frame02
+Running accuracy test: d3_p6_frame03
+Running accuracy test: d3_p6_frame04
+Running accuracy test: d3_p6_frame05
+Running performance test: d3_p6_frame01
+Running performance test: d3_p6_frame02
+Running performance test: d3_p6_frame03
+Running performance test: d3_p6_frame04
+Running performance test: d3_p6_frame05
+
+Testing parameter set: d=3, p=8
+Running accuracy test: d3_p8_frame01
+Running accuracy test: d3_p8_frame02
+Running accuracy test: d3_p8_frame03
+Running accuracy test: d3_p8_frame04
+Running accuracy test: d3_p8_frame05
+Running performance test: d3_p8_frame01
+Running performance test: d3_p8_frame02
+Running performance test: d3_p8_frame03
+Running performance test: d3_p8_frame04
+Running performance test: d3_p8_frame05
+
+Testing parameter set: d=3, p=10
+Running accuracy test: d3_p10_frame01
+Running accuracy test: d3_p10_frame02
+Running accuracy test: d3_p10_frame03
+Running accuracy test: d3_p10_frame04
+Running accuracy test: d3_p10_frame05
+Running performance test: d3_p10_frame01
+Running performance test: d3_p10_frame02
+Running performance test: d3_p10_frame03
+Running performance test: d3_p10_frame04
+Running performance test: d3_p10_frame05
+
+Testing parameter set: d=3, p=12
+Running accuracy test: d3_p12_frame01
+Running accuracy test: d3_p12_frame02
+Running accuracy test: d3_p12_frame03
+Running accuracy test: d3_p12_frame04
+Running accuracy test: d3_p12_frame05
+Running performance test: d3_p12_frame01
+Running performance test: d3_p12_frame02
+Running performance test: d3_p12_frame03
+Running performance test: d3_p12_frame04
+Running performance test: d3_p12_frame05
+
+Testing parameter set: d=3, p=14
+Running accuracy test: d3_p14_frame01
+Running accuracy test: d3_p14_frame02
+Running accuracy test: d3_p14_frame03
+Running accuracy test: d3_p14_frame04
+Running accuracy test: d3_p14_frame05
+Running performance test: d3_p14_frame01
+Running performance test: d3_p14_frame02
+Running performance test: d3_p14_frame03
+Running performance test: d3_p14_frame04
+Running performance test: d3_p14_frame05
+
+Testing parameter set: d=3, p=16
+Running accuracy test: d3_p16_frame01
+Running accuracy test: d3_p16_frame02
+Running accuracy test: d3_p16_frame03
+Running accuracy test: d3_p16_frame04
+Running accuracy test: d3_p16_frame05
+Running performance test: d3_p16_frame01
+Running performance test: d3_p16_frame02
+Running performance test: d3_p16_frame03
+Running performance test: d3_p16_frame04
+Running performance test: d3_p16_frame05
+
+Testing parameter set: d=3, p=18
+Running accuracy test: d3_p18_frame01
+Running accuracy test: d3_p18_frame02
+Running accuracy test: d3_p18_frame03
+Running accuracy test: d3_p18_frame04
+Running accuracy test: d3_p18_frame05
+Running performance test: d3_p18_frame01
+Running performance test: d3_p18_frame02
+Running performance test: d3_p18_frame03
+Running performance test: d3_p18_frame04
+Running performance test: d3_p18_frame05
+
+Testing parameter set: d=3, p=20
+Running accuracy test: d3_p20_frame01
+Running accuracy test: d3_p20_frame02
+Running accuracy test: d3_p20_frame03
+Running accuracy test: d3_p20_frame04
+Running accuracy test: d3_p20_frame05
+Running performance test: d3_p20_frame01
+Running performance test: d3_p20_frame02
+Running performance test: d3_p20_frame03
+Running performance test: d3_p20_frame04
+Running performance test: d3_p20_frame05
+
+Testing parameter set: d=4, p=0
+Running accuracy test: d4_p0_frame01
+Running accuracy test: d4_p0_frame02
+Running accuracy test: d4_p0_frame03
+Running accuracy test: d4_p0_frame04
+Running accuracy test: d4_p0_frame05
+Running performance test: d4_p0_frame01
+Running performance test: d4_p0_frame02
+Running performance test: d4_p0_frame03
+Running performance test: d4_p0_frame04
+Running performance test: d4_p0_frame05
+
+Testing parameter set: d=4, p=2
+Running accuracy test: d4_p2_frame01
+Running accuracy test: d4_p2_frame02
+Running accuracy test: d4_p2_frame03
+Running accuracy test: d4_p2_frame04
+Running accuracy test: d4_p2_frame05
+Running performance test: d4_p2_frame01
+Running performance test: d4_p2_frame02
+Running performance test: d4_p2_frame03
+Running performance test: d4_p2_frame04
+Running performance test: d4_p2_frame05
+
+Testing parameter set: d=4, p=4
+Running accuracy test: d4_p4_frame01
+Running accuracy test: d4_p4_frame02
+Running accuracy test: d4_p4_frame03
+Running accuracy test: d4_p4_frame04
+Running accuracy test: d4_p4_frame05
+Running performance test: d4_p4_frame01
+Running performance test: d4_p4_frame02
+Running performance test: d4_p4_frame03
+Running performance test: d4_p4_frame04
+Running performance test: d4_p4_frame05
+
+Testing parameter set: d=4, p=6
+Running accuracy test: d4_p6_frame01
+Running accuracy test: d4_p6_frame02
+Running accuracy test: d4_p6_frame03
+Running accuracy test: d4_p6_frame04
+Running accuracy test: d4_p6_frame05
+Running performance test: d4_p6_frame01
+Running performance test: d4_p6_frame02
+Running performance test: d4_p6_frame03
+Running performance test: d4_p6_frame04
+Running performance test: d4_p6_frame05
+
+Testing parameter set: d=4, p=8
+Running accuracy test: d4_p8_frame01
+Running accuracy test: d4_p8_frame02
+Running accuracy test: d4_p8_frame03
+Running accuracy test: d4_p8_frame04
+Running accuracy test: d4_p8_frame05
+Running performance test: d4_p8_frame01
+Running performance test: d4_p8_frame02
+Running performance test: d4_p8_frame03
+Running performance test: d4_p8_frame04
+Running performance test: d4_p8_frame05
+
+Testing parameter set: d=4, p=10
+Running accuracy test: d4_p10_frame01
+Running accuracy test: d4_p10_frame02
+Running accuracy test: d4_p10_frame03
+Running accuracy test: d4_p10_frame04
+Running accuracy test: d4_p10_frame05
+Running performance test: d4_p10_frame01
+Running performance test: d4_p10_frame02
+Running performance test: d4_p10_frame03
+Running performance test: d4_p10_frame04
+Running performance test: d4_p10_frame05
+
+Testing parameter set: d=4, p=12
+Running accuracy test: d4_p12_frame01
+Running accuracy test: d4_p12_frame02
+Running accuracy test: d4_p12_frame03
+Running accuracy test: d4_p12_frame04
+Running accuracy test: d4_p12_frame05
+Running performance test: d4_p12_frame01
+Running performance test: d4_p12_frame02
+Running performance test: d4_p12_frame03
+Running performance test: d4_p12_frame04
+Running performance test: d4_p12_frame05
+
+Testing parameter set: d=4, p=14
+Running accuracy test: d4_p14_frame01
+Running accuracy test: d4_p14_frame02
+Running accuracy test: d4_p14_frame03
+Running accuracy test: d4_p14_frame04
+Running accuracy test: d4_p14_frame05
+Running performance test: d4_p14_frame01
+Running performance test: d4_p14_frame02
+Running performance test: d4_p14_frame03
+Running performance test: d4_p14_frame04
+Running performance test: d4_p14_frame05
+
+Testing parameter set: d=4, p=16
+Running accuracy test: d4_p16_frame01
+Running accuracy test: d4_p16_frame02
+Running accuracy test: d4_p16_frame03
+Running accuracy test: d4_p16_frame04
+Running accuracy test: d4_p16_frame05
+Running performance test: d4_p16_frame01
+Running performance test: d4_p16_frame02
+Running performance test: d4_p16_frame03
+Running performance test: d4_p16_frame04
+Running performance test: d4_p16_frame05
+
+Testing parameter set: d=4, p=18
+Running accuracy test: d4_p18_frame01
+Running accuracy test: d4_p18_frame02
+Running accuracy test: d4_p18_frame03
+Running accuracy test: d4_p18_frame04
+Running accuracy test: d4_p18_frame05
+Running performance test: d4_p18_frame01
+Running performance test: d4_p18_frame02
+Running performance test: d4_p18_frame03
+Running performance test: d4_p18_frame04
+Running performance test: d4_p18_frame05
+
+Testing parameter set: d=4, p=20
+Running accuracy test: d4_p20_frame01
+Running accuracy test: d4_p20_frame02
+Running accuracy test: d4_p20_frame03
+Running accuracy test: d4_p20_frame04
+Running accuracy test: d4_p20_frame05
+Running performance test: d4_p20_frame01
+Running performance test: d4_p20_frame02
+Running performance test: d4_p20_frame03
+Running performance test: d4_p20_frame04
+Running performance test: d4_p20_frame05
+
+==================================================
+============= FINAL RESULTS SUMMARY ==============
+==================================================
+Optimal parameters: d2/p8
+Optimal FMM_SPARSE: not tested
+Max error observed: 6.5518e-03 J/mol/atom (frame: frame03)
+Average performance: 145.72 ns/day
+
+Near-convergence alternatives:
+  Criteria: at least one frame failed, but max error is within 2x the threshold.
+  d4/p8, FMM_SPARSE=0: 3/5 frames accurate, max error 1.7472e-02, avg performance 11.08 ns/day
+    failing frame(s): frame03=1.0920e-02, frame05=1.7472e-02
+
+Detailed per-frame results written to output_FMM-AutoOpt/summary.csv
+Averaged multi-frame summary written to output_FMM-AutoOpt/summary_averaged.csv
